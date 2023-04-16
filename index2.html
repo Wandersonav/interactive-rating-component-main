@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+
+      <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<section>
+
+
+  <img src="file:///C:/Users/Wanderson/Documents/Programa%C3%A7%C3%A3o/Estudo%20programa%C3%A7%C3%A3o/Desafios/interactive-rating-component-main/images/illustration-thank-you.svg">
+  <h1> You selected <!-- Add rating here --> out <span class="mud">text</span>  of 5 </h1>
+
+ <p> Thank you!</p>
+<br>
+  We appreciate you taking the time to give a rating. If you ever need more support, <br>
+  don’t hesitate to get in touch!
+
+  
+
+  <script>
+  let tex = document.querySelector(".mud");
+  textContent =  localStorage.getItem('texto1');
+if (textContent === '1') {tex.innerHTML = "1"};
+if (textContent === '2') {tex.innerHTML = "2"};
+if (textContent === '3') {tex.innerHTML = "3"};
+if (textContent === '4') {tex.innerHTML = "4"};
+if (textContent === '5') {tex.innerHTML = "5"};
+  console.log(textContent)
+  </script>
+
+  <!-- Thank you state end -->
+  <script src="main.js" ></script>
+</section>
+</body>
+</html>

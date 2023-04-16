@@ -1,0 +1,88 @@
+body{
+
+background:hsl(216, 12%, 8%);
+
+}
+
+.attribution {
+    
+    font-size: 11px; text-align: center; 
+
+}
+    
+.attribution a { 
+        
+color: hsl(228, 45%, 44%); 
+
+}
+
+.Principal {
+background:hsl(213, 19%, 18%);
+color:white;
+font-size:15px;
+position:Flexbox;
+padding: 35px;
+width: 481px;
+height: 768px;
+display: Flexbox;
+border-radius: 10px;
+box-sizing: border-box;
+
+
+
+}
+
+.Principal p{
+
+font-size:20px;
+color:white;
+padding-top: 25%;
+text-align: center;
+}
+
+.Principal a{
+
+font-size:20px;
+color:white;
+text-align:center;
+
+
+}
+
+.envio {
+
+    background:hsl(25, 97%, 53%);
+    font-size:20px;
+    color:white;
+    width: 50%;
+    padding: 5% 5% 5%;
+    border-radius: 50px;
+    border: 1px solid #40112D;
+    margin:25px;
+    display:inline-block;
+    text:center
+
+}
+
+#numero1,#numero2,#numero3,#numero4,#numero5
+{
+
+    background: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    margin: 10px;
+    float: left;
+    padding:10px;
+    text-align: center;
+
+}
+
+#numero1:hover, #numero2:hover, #numero3:hover, #numero4:hover, #numero5:hover{
+    background:hsl(25, 97%, 53%);
+    
+}
+
+#numero1:focus, #numero2:focus, #numero3:focus, #numero4:focus, #numero5:focus{
+    background:hsl(25, 97%, 53%);
+}
