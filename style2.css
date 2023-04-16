@@ -5,7 +5,7 @@ body section{
     position:Flexbox;
     padding: 35px;
     width: 481px;
-    height: 768px;
+    height: 481px;
     display: Flexbox;
     border-radius: 10px;
     box-sizing: border-box;
@@ -17,7 +17,9 @@ body section{
     body{
 
         background:hsl(216, 12%, 8%);
-        
+        position: absolute;
+        left: 35%;
+        top: 10%
         }
 
 
